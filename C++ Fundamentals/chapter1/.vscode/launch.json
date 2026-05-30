@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run C++ program",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang++ build active file",
+      "externalConsole": false,
+      "console": "integratedTerminal"
+    }
+  ]
+}
